@@ -24,7 +24,7 @@ A React application that combines weather data with music recommendations to cre
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/tharunrega/weatherbeats.git
    cd weatherbeats
    ```
 
@@ -71,19 +71,6 @@ A React application that combines weather data with music recommendations to cre
 - `npm test` - Launches the test runner
 - `npm run eject` - Ejects from Create React App (one-way operation)
 
-## 🏗️ Project Structure
-
-```
-src/
-├── components/
-│   └── SpotifyAuth.js          # Spotify authentication component
-├── services/
-│   ├── locationService.js      # Geolocation service
-│   ├── spotifyService.js       # Spotify API integration
-│   └── weatherService.js       # Weather API integration
-├── App.js                      # Main application component
-└── index.js                    # Application entry point
-```
 
 ## 🔧 Technologies Used
 
