@@ -1,3 +1,5 @@
+![WeatherBeats Logo](public/weatherbeats-logo.png)
+
 # WeatherBeats 🌤️🎵
 
 A React application that combines weather data with music recommendations to create the perfect soundtrack for any weather condition. WeatherBeats automatically detects your location, fetches current weather information, and provides personalized music recommendations through Spotify integration.
@@ -24,7 +26,7 @@ A React application that combines weather data with music recommendations to cre
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/tharunrega/weatherbeats.git
+   git clone <repository-url>
    cd weatherbeats
    ```
 
@@ -40,7 +42,7 @@ A React application that combines weather data with music recommendations to cre
    REACT_APP_WEATHER_API_KEY=your_openweathermap_api_key
    REACT_APP_SPOTIFY_CLIENT_ID=your_spotify_client_id
    REACT_APP_SPOTIFY_CLIENT_SECRET=your_spotify_client_secret
-   REACT_APP_REDIRECT_URI=http://localhost:3000/callback
+   REACT_APP_REDIRECT_URI=https://localhost:3000/callback
    ```
 
 4. **Get API Keys**
@@ -71,6 +73,19 @@ A React application that combines weather data with music recommendations to cre
 - `npm test` - Launches the test runner
 - `npm run eject` - Ejects from Create React App (one-way operation)
 
+## 🏗️ Project Structure
+
+```
+src/
+├── components/
+│   └── SpotifyAuth.js          # Spotify authentication component
+├── services/
+│   ├── locationService.js      # Geolocation service
+│   ├── spotifyService.js       # Spotify API integration
+│   └── weatherService.js       # Weather API integration
+├── App.js                      # Main application component
+└── index.js                    # Application entry point
+```
 
 ## 🔧 Technologies Used
 
